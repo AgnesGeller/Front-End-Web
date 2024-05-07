@@ -83,7 +83,7 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 160px;
+    border-radius: 10px;
 }
 
 .navbar-nav .nav-link {

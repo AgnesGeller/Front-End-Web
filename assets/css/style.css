@@ -25,7 +25,7 @@ body {
 h1, h2, h3,h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 500;
-
+    margin-top: 20px;
     color: var(--c-dark);
 }
 
@@ -80,7 +80,7 @@ img {
 
 .logo{
     width: 70px;
-    height: 70px;
+    height: px;
     /* border: 1px solid red; */
     /* background-image: url(./assets/img/logo.png); */
     background-size: cover;

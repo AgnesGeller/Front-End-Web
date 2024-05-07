@@ -98,6 +98,17 @@ img {
     color: var(--c-brand);
 }
 
+#digital-clock {
+    font-size: 2rem;
+    color: #091a89;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+}
+
 
 /* BTN */
 .btn {

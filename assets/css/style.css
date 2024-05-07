@@ -79,8 +79,8 @@ img {
 }
 
 .logo{
-    width: 70px;
-    height: px;
+    width: 100px;
+    height: 70px;
     /* border: 1px solid red; */
     /* background-image: url(./assets/img/logo.png); */
     background-size: cover;

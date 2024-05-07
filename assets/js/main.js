@@ -72,19 +72,19 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       }).then(response => {
           if (response.ok) {
-              alert('Köszönjük! Az üzenetet sikeresen elküldtük.');
+              alert('Thank you. Your message has been sent');
               form.reset();
           } else {
               response.json().then(data => {
                   if (Object.hasOwn(data, 'errors')) {
                       alert(data["errors"].map(error => error["message"]).join(", "));
                   } else {
-                      alert('Valami hiba történt és az üzenetet nem sikerült elküldeni.');
+                      alert('Something error...');
                   }
               });
           }
       }).catch(error => {
-          alert('Valami hiba történt és az üzenetet nem sikerült elküldeni.');
+          alert('Somithing error.. message has not been sent');
       });
   });
 });

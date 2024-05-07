@@ -1,6 +1,8 @@
 /* FONTS */
 @import url(../css/clash-display.css);
 
+
+
 /* VARIABLES */
 :root {
     --c-dark: #212529;
@@ -115,6 +117,17 @@ img {
     background-color: var(--c-brand-light);
     border-color: var(--c-brand-light);
     color: white;
+}
+.btn-main {
+    background: linear-gradient(to right,#92b3c6, #2338da);
+    border-radius: none;
+    border: ghostwhite;
+    font-weight: 700;
+    color: #fff;
+}
+.btn:hover {
+    color: #fff;
+    transform: translateY(-5px);
 }
 
 
